@@ -22,3 +22,50 @@
 	height: 30px;
 	width: 186px;
 }
+
+#section{
+	background-image:url("life.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	background-color: rgba(255,255,255,0.3);
+	background-blend-mode: lighten;	
+	
+	height:300px;
+	width:1085px;
+	margin-left:200px;
+	margin-top:10px;
+	
+}
+#study{
+	height:300px;
+	width:1085px;
+	margin-left:200px;
+	
+}
+.button{ background-color:transparent;
+         border:none;
+         color:#FFBB00;
+         border-radius: 50px;
+         font-size:70px;
+         transition-duration: 0.3s;
+         font-family: 'Fredoka One', cursive;
+         margin-left:280px;
+         margin-top:100px;
+         }
+.button:hover {background-color: transparent;
+               color:#f44336;
+               border:none;}
+h2{
+	 font-family: 'Fredoka One', cursive;
+	 text-align:center;
+}
+
+
+.picture{
+	height:200px;
+	width:310px;
+	margin-right:70px;
+	font-family: 'Fredoka One', cursive;
+}
+
+
