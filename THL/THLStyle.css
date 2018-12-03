@@ -3,12 +3,12 @@
 	background: url("logo.png");
 	background-size: cover;
 	width: 1140px;
-	height: 130px;
+	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
 }
 #THLBtn{
-	margin-top: 100px;
+	margin-top: 70px;
 	background-color: white;
 	border: none;
 	height: 30px;
@@ -16,7 +16,7 @@
 }
 
 #HomeBtn,#lifeBtn,#buddyBtn,#cityBtn,#profBtn{
-	margin-top: 100px;
+	margin-top: 70px;
 	background-color: transparent;
 	border: none;
 	height: 30px;
