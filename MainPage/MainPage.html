@@ -1,0 +1,53 @@
+<!-- author Xinyue Shi -->
+<!-- Main Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sino-German News</title>
+	<link rel="stylesheet" type="text/css" href="mainPageStyle.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|PT+Serif|Lobster" rel="stylesheet">
+	<script src="mainPageAction.js"></script>
+</head>
+<body>
+		<!-- banner -->
+		<div id="bannerDiv">
+		<button id="HomeBtn" 
+				onclick="window.location.href='MainPage.html'">Homepage</button>
+		<button id="THLBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>
+		<button id="lifeBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>
+		<button id="cityBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
+		<button id="buddyBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../China Buddy/ChinaBuddy.html'">China Buddy</button>
+		<button id="profBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../Professor/professor.html'">Professor</button>
+		</div>
+	
+		<!-- main part -->
+		<div id="mainDiv">
+			<div id="weeklyNews"><img src="weeklyNews.jpg"/></div>
+			<div id="monthNotices">
+				<p id="month">December</p>
+				<table id="monthTable" style="width:100%">
+					<tr class="border_bottom"><td>09</td><td> Test (Network Security) closes</td></tr>
+					<tr class="border_bottom"><td>20</td><td> Exercise (Internet Programming)</td></tr>
+					<tr class="border_bottom"><td>21</td><td> Christmas Holidays start</td></tr>
+					<tr class="border_bottom"><td>24</td><td> Christmas Eve</td></tr>
+					<tr class="border_bottom"><td>25</td><td> Christmas</td></tr>
+				</table>
+			</div>
+		</div>	
+	
+		<div id="quickLinksDiv">
+			<p id="quickLinksPara">Quick Links</p>
+			<a id="link1" href="https://www.th-luebeck.de/">Technische Hochshule Luebeck</a><br/>
+			<p id="addr1">Address: Mönkhofer Weg 239, 23562 Lübeck, Germany</p>
+			<a id="link2" href="https://www.ecust.edu.cn/">East China University of Science and Technology</a>
+			<p id="addr2">Address: Meilong Road 130, 200237 Shanghai, China</p>
+		</div>
+</body>
+</html>

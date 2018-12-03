@@ -1,0 +1,89 @@
+@charset "UTF-8";
+#bannerDiv{
+	margin-left: auto;
+	margin-right: auto;
+	background: url("logo.png");
+	background-size: cover;
+	width: 1140px;
+	height: 100px;
+}
+
+#HomeBtn{
+	margin-top: 70px;
+	background-color: white;
+	border: none;
+	height: 30px;
+	width: 186px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#THLBtn,#lifeBtn,#cityBtn,#buddyBtn,#profBtn{
+	margin-top: 70px;
+	background-color: transparent;
+	border: none;
+	height: 30px;
+	width: 186px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#mainDiv{
+	margin-top: 10px;
+	width: 1140px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#weeklyNews{
+	width: 800px;
+	height: 400px;
+	float: left;
+}
+#monthNotices{
+	width: 300px;
+	height: 400px;
+	float: right;
+	
+	text-align: center;
+}
+#month{
+	margin-top: -5px;
+	width: 300px;
+	height: 35px;
+	background-color: #aebda6;
+	color: white; 
+	font-family: 'Lobster', serif; 
+	font-size: 25px;
+	letter-spacing: 5px;
+	margin-top:5px;
+}
+#monthTable{
+	margin-top: -10px;
+	width: 300px;
+	height: 340px;
+	background-color: #aebda6;
+	color: white; 
+	text-align: left;
+}
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
+
+#quickLinksDiv{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1140px;
+	height: 125px;
+	margin-top: 5px;
+	background-color: rgba(117, 109, 37, 0.6);
+}
+#quickLinksPara{
+	margin-left: 5px;
+	font-size: 20px;
+	font-family: 'PT Serif', serif;
+	margin-bottom: 5px;
+}
+#addr1,#addr2,#link1,#link2{
+	margin-top:-3px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
