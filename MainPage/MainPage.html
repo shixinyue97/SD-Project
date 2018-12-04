@@ -23,31 +23,130 @@
 				onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
 		<button id="buddyBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
 				onclick="window.location.href='../China Buddy/ChinaBuddy.html'">China Buddy</button>
-		<button id="profBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../Professor/professor.html'">Professor</button>
+		<button id="guideBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../Guide/Guide.html'">Guide</button>
 		</div>
 	
 		<!-- main part -->
-		<div id="mainDiv">
-			<div id="weeklyNews"><img src="weeklyNews.jpg"/></div>
-			<div id="monthNotices">
-				<p id="month">December</p>
-				<table id="monthTable" style="width:100%">
-					<tr class="border_bottom"><td>09</td><td> Test (Network Security) closes</td></tr>
-					<tr class="border_bottom"><td>20</td><td> Exercise (Internet Programming)</td></tr>
-					<tr class="border_bottom"><td>21</td><td> Christmas Holidays start</td></tr>
-					<tr class="border_bottom"><td>24</td><td> Christmas Eve</td></tr>
-					<tr class="border_bottom"><td>25</td><td> Christmas</td></tr>
-				</table>
+		<div id="mainDiv" style="display:flex; ">
+		
+			<!-- quick links -->
+			<div id="quickLinks">
+				<div id="quickLinksDiv">
+				<p id="quickLinksPara">Quick Links</p>
+				</div>
+				
+				<div id="quicklinks">
+				<a id="link1" href="https://www.th-luebeck.de/">Technische Hochshule Luebeck</a><br/>
+				<p id="addr1">Address: Mönkhofer Weg 239, 23562 Lübeck, Germany</p>
+				<a id="link2" href="https://www.ecust.edu.cn/">East China University of Science and Technology</a>
+				<p id="addr2">Address: Meilong Road 130, 200237 Shanghai, China</p>
+				<a id="link3" href="https://lernraum.th-luebeck.de/">Lernraum der Technischen Hochschule Lübeck</a><br/><br/>
+				<a id="link4" href="https://qis.th-luebeck.de/qisserver/rds?state=user&type=0">QIS System</a>
+				</div>
 			</div>
+			
+			<!-- news -->
+			<div id="mainpart2" style="width: 990px; height: 900px;">
+				
+				<!-- important news in this week/month -->
+				<div style="width: 990px; height: 400px;">
+				<div id="weeklyNews" style="width: 840px; height: 400px; float: left;">
+					<img src="weeklyNews.jpg"/>
+				</div>
+				<!-- month notices -->
+				<div id="monthNotices">
+					<div id="monthDiv">
+					<p id="month">December</p>
+					</div>
+				
+					<table id="monthTable" style="width:100%">
+						<tr>
+							<td style="font-family: 'Lobster', serif; font-size:20px;">09</td>
+							<td style="font-size:6px;"> Test (Network Security) closes</td>
+						</tr>
+						<tr>
+							<td style="font-family: 'Lobster', serif; font-size:20px;">20</td>
+							<td style="font-size:6px;"> Exercise (Internet Programming)</td>
+						</tr>
+						<tr>
+							<td style="font-family: 'Lobster', serif; font-size:20px;">21</td>
+							<td style="font-size:6px;"> Christmas Holidays start</td>
+						</tr>
+						<tr>
+							<td style="font-family: 'Lobster', serif; font-size:20px;">24</td>
+							<td style="font-size:6px;"> Christmas Eve</td>
+						</tr>
+						<tr>
+							<td style="font-family: 'Lobster', serif; font-size:20px;">25</td>
+							<td style="font-size:6px;"> Christmas</td>
+						</tr>
+					</table>
+				</div>
+				</div>
+				
+				<!-- news from other sections -->
+				<div id="news1">
+					<p style="padding-top:312px; padding-left: 4px; font-family:'PT Serif',serif; 
+					   color:white; font-size: 20px;">
+					Sample Text</p>
+					<p style="margin-top:-18px; padding-left: 4px; font-family:'Noto Sans KR',sans-serif;
+					   color:white;font-size: 6px; letter-spacing: 1px;">
+					Today, the first snow in this winter came to Luebeck. sample text sample text ...</p>
+				</div>
+				
+				<div id="news2">
+					<div id="news2Div">
+						<p style="font-family: 'Lobster', serif; color: white; letter-spacing:2px;
+						   font-size:20px; margin-top:2px; margin-left:7px; margin-bottom:-10px;">
+						   Editor's picks
+						</p>
+					</div>
+					<div class="newsClass">
+						<p class="newsTitle">Today we want to make something special.</p>
+						<p class="newsContent">
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+						</p>
+					</div>
+					<div class="newsClass">	
+						<p class="newsTitle">Hard to think news. sample text sample text.</p>
+						<p class="newsContent">
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+						</p>
+					</div>
+					<div class="newsClass">
+						<p class="newsTitle">We five people go to Hamburg today.</p>
+						<p class="newsContent">
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+						</p>
+					</div>
+					<div class="newsClass">
+						<p class="newsTitle">Everyone trys to get a higher grades in TOEFL.</p>
+						<p class="newsContent">
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+							It is really hard to think about content now. 
+							Next time it will be filled with real news.
+						</p>
+					</div>
+				</div>
+			</div>
+			
 		</div>	
 	
-		<div id="quickLinksDiv">
-			<p id="quickLinksPara">Quick Links</p>
-			<a id="link1" href="https://www.th-luebeck.de/">Technische Hochshule Luebeck</a><br/>
-			<p id="addr1">Address: Mönkhofer Weg 239, 23562 Lübeck, Germany</p>
-			<a id="link2" href="https://www.ecust.edu.cn/">East China University of Science and Technology</a>
-			<p id="addr2">Address: Meilong Road 130, 200237 Shanghai, China</p>
-		</div>
+		
 </body>
+<footer>
+	<p>Copyright © Group3<br/>
+	   Xinyue Shi, Yanran Liu, Yu Kong</p>
+</footer>
 </html>
