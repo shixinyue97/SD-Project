@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#bannerDiv{
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	width: cover;
+	height: 50px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: black;
+}
+#logoDiv{
+	 float: left; 
+	 margin-left:20px; 
+	 margin-top:5px;
+	 height:70px;
+	 width:80px;
+	 background-color: white;
+	 text-align:center;
+}
+
+#newsTitle{
+	font-family: 'PT Serif', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	margin-left: 3px;
+	margin-top:25px;
+	float: left; 
+}
+
+#HomeBtn{
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 5px;
+	color: white;
+	background-color: black;
+	border: none;
+	height: 30px;
+	width: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#THLBtn,#lifeBtn,#cityBtn,#buddyBtn,#guideBtn{
+	border-right: 1px solid grey;
+	margin-top: 20px;
+	padding-top: 5px;
+	color: grey;
+	background-color: transparent;
+	border: none;
+	height: 30px;
+	width: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#mainDiv{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
