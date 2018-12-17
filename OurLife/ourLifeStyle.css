@@ -55,10 +55,10 @@
 	background-repeat:no repeat;
 	background-color: rgba(255,255,255,0.3);
 	background-blend-mode: lighten;	
-	
+	padding:0px;
 	height:300px;
-	width:1085px;
-	margin-left:200px;
+	width:1140px;
+	margin-left:190px;	
 	margin-top:10px;
 	
 }
@@ -75,23 +75,110 @@
          font-size:70px;
          transition-duration: 0.3s;
          font-family: 'Fredoka One', cursive;
-         margin-left:280px;
-         margin-top:100px;
+         margin-left:310px;
+         margin-top:80px;
          }
 .button:hover {background-color: transparent;
                color:#f44336;
                border:none;}
+
+.title{  
+		 height:40px;
+		 width:200px;
+	     background-color:transparent;
+         border:none;
+         color:white;
+         margin-top:0px;
+         font-size:25px;
+         text-align:left;
+         letter-spacing:2px;
+         transition-duration: 0.3s;
+         font-family: 'Fredoka One', cursive;
+         cursor:pointer;
+}   
+.title:hover{
+	    background-color:#aebda6;
+	    color:white;
+        border:none;
+        text-decoration:underline;
+	
+}          
+               
+      
 h2{
 	 font-family: 'Fredoka One', cursive;
-	 text-align:center;
+	
+}
+
+#title_h2{
+	color:white;
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 
-.picture{
-	height:200px;
-	width:310px;
-	margin-right:70px;
+
+#title{
+	width:200px;
+	height:1200px;
+	margin-top:0px;
+	margin-left:190px;
+	margin-bottom:350px;
+	padding:0px;
+	background-color:#aebda6;	
+}
+
+#middle{
+	margin-top:-1550px;
+	margin-left:400px;
+	height:1200px; 
+	width:720px;
+	
+}
+
+#right{
+	margin-top:-1220px;
+	margin-left:1130px;
+	width:200px;
+	height:1200px;
+	background-color:#aebda6;
+}
+
+#footer{
+	
+	width:1140px;
+	height:20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainpicture{
+	align:top;
+	margin-top:0px;
+	width:720px;
+	height:380px;
+	border:none;
+}
+
+#textarea{
+	align:top;
+	border:none;
 	font-family: 'Fredoka One', cursive;
+	font-size:20px;
+	height:120px;
+	width:720px;
+	
 }
 
-
+p{
+	text-align:center;
+	font-size:2px;
+}
+.fb{
+	border:none;
+	background-color:transparent;
+	color:grey;
+	cursor:pointer;
+	align:center;
+}
+.fb:hover{
+	color:black;
+}
