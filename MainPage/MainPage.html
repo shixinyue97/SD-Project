@@ -18,145 +18,222 @@
 			<div id="logoDiv">
 			<img src="logo.png" style="width:70px;" onclick="window.location.href='MainPage.html'">
 			</div>
-			<!-- <div id="newsTitle">Sino-German News</div> -->
 			
 			<div id="buttonsDiv">
-			<button id="HomeBtn" 
+			<button id="HomeBtn"
 					onclick="window.location.href='MainPage.html'">Homepage</button>
-			<button id="THLBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>
-			<button id="lifeBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>
-			<button id="cityBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+			<button id="lifeBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+					onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>		
+			<button id="THLBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+					onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>	
+			<button id="cityBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
 					onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
-			<button id="buddyBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../China Buddy/ChinaBuddy.html'">China Buddy</button>
-			<button id="guideBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../Guide/Guide.html'">Guide</button>
 			</div>
 		</div>
 	
 		<br/>
 		<!-- main part -->
-		<div id="mainDiv" style="display:flex; ">
-		
-			<!-- quick links -->
-			<div id="quickLinks">
-				<div id="quickLinksDiv">
-				<p id="quickLinksPara">Quick Links</p>
-				</div>
-				
-				<div id="quicklinks">
-				<a id="link1" href="https://www.th-luebeck.de/">Technische Hochshule Luebeck</a><br/>
-				<p id="addr1">Address: Mönkhofer Weg 239, 23562 Lübeck, Germany</p>
-				<a id="link2" href="https://www.ecust.edu.cn/">East China University of Science and Technology</a>
-				<p id="addr2">Address: Meilong Road 130, 200237 Shanghai, China</p>
-				<a id="link3" href="https://lernraum.th-luebeck.de/">Lernraum der Technischen Hochschule Lübeck</a><br/><br/>
-				<a id="link4" href="https://qis.th-luebeck.de/qisserver/rds?state=user&type=0">QIS System</a>
+		<div id="mainDiv">
+			<div style="display:flex;">
+			<div style="width:760px">
+				<div id="mainNews">	
+				<button type="button" id="mainNewsBtn"
+						onclick="window.location.href='../Luebeck City/weekNews/weekNews.html'">
+						Vote for Semester Ticket
+				</button>
 				</div>
 			</div>
 			
-			<!-- news -->
-			<div id="mainpart2" style="width: 990px; height: 900px;">
-				
-				<!-- important news in this week/month -->
-				<div style="width: 990px; height: 400px;">
-				<div id="weeklyNews" style="width: 840px; height: 400px; float: left;">
-					<img src="weeklyNews.jpg"/>
+			<div style="width:380px">
+				<div id="month" style="width: 360px;">
+				<div id="monthTitle" style="width: 360px;">
+					<p style="margin-top:2px; margin-left:7px;">
+					   Monthly Events
+					</p>
 				</div>
-				<!-- month notices -->
-				<div id="monthNotices">
-					<div id="monthDiv">
-					<p id="month">December</p>
-					</div>
-				
-					<table id="monthTable" style="width:100%">
-						<tr>
-							<td style="font-family: 'Lobster', serif; font-size:20px;">09</td>
-							<td style="font-size:6px;"> Test (Network Security) closes</td>
-						</tr>
-						<tr>
-							<td style="font-family: 'Lobster', serif; font-size:20px;">20</td>
-							<td style="font-size:6px;"> Exercise (Internet Programming)</td>
-						</tr>
-						<tr>
-							<td style="font-family: 'Lobster', serif; font-size:20px;">21</td>
-							<td style="font-size:6px;"> Christmas Holidays start</td>
-						</tr>
-						<tr>
-							<td style="font-family: 'Lobster', serif; font-size:20px;">24</td>
-							<td style="font-size:6px;"> Christmas Eve</td>
-						</tr>
-						<tr>
-							<td style="font-family: 'Lobster', serif; font-size:20px;">25</td>
-							<td style="font-size:6px;"> Christmas</td>
-						</tr>
-					</table>
+				<div class="monthClass" style="width: 340px;">
+					<p class="monthT">09</p>
+					<p class="monthContent-1" onclick="window.open('https://lernraum.th-luebeck.de/')">
+						Deadline of exercise of chapter 3 of Network Security.
+					</p>
 				</div>
+				<div class="monthClass" style="width: 340px;">
+					<p class="monthT">16</p>
+					<p class="monthContent-1" onclick="window.open('https://lernraum.th-luebeck.de/')">
+						Deadline of Assignment2 of Internet Programming.
+					</p>
 				</div>
-				
-				<!-- news from other sections -->
-				<div id="news1">
-					<p style="padding-top:312px; padding-left: 4px; font-family:'PT Serif',serif; 
-					   color:white; font-size: 20px;">
-					Sample Text</p>
-					<p style="margin-top:-18px; padding-left: 4px; font-family:'Noto Sans KR',sans-serif;
-					   color:white;font-size: 6px; letter-spacing: 1px;">
-					Today, the first snow in this winter came to Luebeck. sample text sample text ...</p>
+				<div class="monthClass" style="width: 340px;">
+					<p class="monthT">21</p>
+					<p class="monthContent">Start of Christmas Holidays.
+					</p>
 				</div>
-				
-				<div id="news2">
-					<div id="news2Div">
-						<p style="font-family: 'Lobster', serif; color: white; letter-spacing:2px;
-						   font-size:20px; margin-top:2px; margin-left:7px; margin-bottom:-10px;">
-						   Editor's picks
-						</p>
-					</div>
-					<div class="newsClass">
-						<p class="newsTitle">Today we want to make something special.</p>
-						<p class="newsContent">
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-						</p>
-					</div>
-					<div class="newsClass">	
-						<p class="newsTitle">Hard to think news. sample text sample text.</p>
-						<p class="newsContent">
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-						</p>
-					</div>
-					<div class="newsClass">
-						<p class="newsTitle">We five people go to Hamburg today.</p>
-						<p class="newsContent">
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-						</p>
-					</div>
-					<div class="newsClass">
-						<p class="newsTitle">Everyone trys to get a higher grades in TOEFL.</p>
-						<p class="newsContent">
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-							It is really hard to think about content now. 
-							Next time it will be filled with real news.
-						</p>
-					</div>
+				<div class="monthClass" style="width: 340px;">
+					<p class="monthT">24</p>
+					<p class="monthContent">Christmas Eve
+					</p>
+				</div>
+				<div class="monthClass" style="width: 340px;">
+					<p class="monthT">25</p>
+					<p class="monthContent">Christmas
+					</p>
+				</div>
 				</div>
 			</div>
+			</div>
 			
+			<div style="display:flex; margin-top:20px;">
+				<div style="width:380px">
+				<div id="weeklyNews" style="width: 360px;">
+				<div id="weeklyNewsTitle" style="width: 360px;">
+					<p style="margin-top:2px; margin-left:7px;">
+					   >> Our Life
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle" style="margin-top:8px;">Today we want to make something special.</p>
+					<p class="newsContent">
+						It is really hard to think about content now. 
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">	
+					<p class="newsTitle">Hard to think news. sample text sample text.</p>
+					<p class="newsContent"> 
+						Next time it will be filled with real news.
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle">We five people go to Hamburg today.</p>
+					<p class="newsContent">
+						It is really hard to think about content now. 
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle">Everyone tries to get a higher grades in TOEFL.</p>
+					<p class="newsContent"> 
+						Next time it will be filled with real news.
+					</p>
+				</div>
+				</div>
+				</div>
+			
+				<div style="width:380px">
+				<div id="weeklyNews" style="width: 360px;">
+				<div id="weeklyNewsTitle" style="width: 360px;">
+					<p style="margin-top:2px; margin-left:7px;">
+					   >> TH Luebeck
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle" style="margin-top:8px;">Today we want to make something special.</p>
+					<p class="newsContent">
+						It is really hard to think about content now. 
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">	
+					<p class="newsTitle">Hard to think news. sample text sample text.</p>
+					<p class="newsContent"> 
+						Next time it will be filled with real news.
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle">We five people go to Hamburg today.</p>
+					<p class="newsContent">
+						It is really hard to think about content now. 
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle">Everyone tries to get a higher grades in TOEFL.</p>
+					<p class="newsContent"> 
+						Next time it will be filled with real news.
+					</p>
+				</div>
+				</div>
+				</div>
+				
+				<div style="width:380px">
+				<div id="weeklyNews" style="width: 360px;">
+				<div id="weeklyNewsTitle" style="width: 360px;">
+					<p style="margin-top:2px; margin-left:7px;">
+					   >> Luebeck City
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle" style="margin-top:8px;">Today we want to make something special.</p>
+					<p class="newsContent">
+						It is really hard to think about content now. 
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">	
+					<p class="newsTitle">Hard to think news. sample text sample text.</p>
+					<p class="newsContent"> 
+						Next time it will be filled with real news.
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle">We five people go to Hamburg today.</p>
+					<p class="newsContent">
+						It is really hard to think about content now. 
+					</p>
+				</div>
+				<div class="newsClass" style="width: 340px;">
+					<p class="newsTitle">Everyone tries to get a higher grades in TOEFL.</p>
+					<p class="newsContent"> 
+						Next time it will be filled with real news.
+					</p>
+				</div>
+				</div>
+				</div>
+				
+			
+			</div>
 		</div>	
-	
-		
 </body>
 <footer>
-	<p>Copyright © Group3<br/>
-	   Xinyue Shi, Yanran Liu, Yu Kong</p>
+	<div style="display:flex; margin-bottom: 20px; width:1140px;margin-left:auto;margin-right:auto;">
+	<div>
+	<table id="quickLinks" style="margin-left:20px; margin-top:10px; text-align:left">
+		<tr><td id="QLtitle">Quick Links</td></tr>
+		<tr><td class="qlB" onclick="window.open('http://www.luebeck.de/index.html')">
+				Luebeck Fenster
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.bahn.com/en/view/index.shtml')">
+				Deutsch Bahn
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.th-luebeck.de/')">
+				Technische Hochschule Luebeck
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.luebeck-tourismus.de/')">
+				Luebeck Tourismus
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.travemuende-tourismus.de/')">
+				Travemünde Tourismus
+				</td></tr>
+	</table>
+	</div>
+	
+	<div>
+	<table id="contact" style="margin-left:40px; margin-top:10px; text-align:left">
+		<tr><td id="Ctitle">Contact Us</td></tr>
+		<tr><td>Telefon: +49/163/1234567</td></tr>
+		<tr><td>E-mail: group3.g@stud.th-luebeck.de</td></tr>
+		<tr><td>Xinyue Shi | Yanran Liu | Yu Kong</td></tr>
+	</table>
+	</div>
+	
+	<div>
+	<table id="add" style="margin-left:40px; margin-top:10px; text-align:left">
+		<tr><td id="Atitle">Addresse</td></tr>
+		<tr><td>Maria-Mitchell Str. 2-4</td></tr>
+		<tr><td>Luebeck 23562</td></tr>
+		<tr><td>Schleswig-Holstein</td></tr>
+		<tr><td>Germany</td></tr>
+	</table>
+	</div>
+	
+	</div>
+	<p style="margin-bottom:0px;">Copyright © Group3: Xinyue Shi, Yanran Liu, Yu Kong</p>
+	<button type="button" class="fB">Terms of use</button>|<button 
+			type="button" class="fB">Impressum</button>
 </footer>
 </html>
