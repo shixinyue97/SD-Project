@@ -1,0 +1,109 @@
+@charset "UTF-8";
+#snow_div{
+	width:740px;
+	height:450px;
+	background-image:url("snow.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	margin-left:190px;
+	margin-top:10px;
+}
+
+#plan{
+	width:500px;
+	height:140px;
+	margin-top: 300px;
+	background-color: rgba(255,200,225,0.3);
+	background-blend-mode: lighten;
+	
+}
+#search{
+	width:380px;
+	height:700px;
+	margin-left:940px;
+	margin-top:-450px;	
+}
+
+#input{
+	width:300px;
+	height:40px;
+	border-radius:10px;
+	border:none;
+	background-color:#D3D3D3;
+}
+
+#article{
+	width:740px;
+	height:600px;
+	margin-left:190px;
+	margin-top:-220px;
+}
+
+
+.article_title{
+	     height:25px;
+		 width:700px;
+	     background-color:transparent;
+         border:none;
+         color:black;
+         font-size:25px;
+         text-align:left;
+         letter-spacing:2px;
+         transition-duration: 0.3s;
+         font-family: 'Fredoka One', cursive;
+         cursor:pointer;
+         margin-top:10px;
+         
+}
+.article_title:hover{
+	
+	    color:black;
+        border:none;
+        text-decoration:underline;
+      
+}
+
+.new_title{
+	     height:25px;
+		 width:300px;
+	     background-color:grey;
+         border:none;
+         color:white;
+         font-size:17px;
+         text-align:left;
+         
+         transition-duration: 0.3s;
+         font-family: 'Fredoka One', cursive;
+         cursor:pointer;
+         margin-top:10px;
+         
+}
+.new_title:hover{
+	
+	    color:black;
+        border:none;
+        text-decoration:underline;
+      
+}
+.article_text{
+	width:740px;
+	height:70px;
+	border:none;
+	font-size:17px;
+	font-family: 'Fredoka One', cursive;
+}
+h2{
+	font-size:60px;
+	font-family: 'Fredoka One', cursive;
+	
+}
+
+h3{
+	font-size:40px;
+}
+
+.travel{
+	width:100px;
+	height:60px;
+	margin-top:10px;
+}
