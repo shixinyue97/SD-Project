@@ -7,27 +7,26 @@
 	<meta charset="UTF-8">
 	<title>Sino-German News</title>
 	<link rel="stylesheet" type="text/css" href="mainPageStyle.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|PT+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|PT+Serif|Open+Sans:bold" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 	<script src="mainPageAction.js"></script>
 </head>
 <body>
 		<!-- banner -->
 		<div id="bannerDiv">
-			
+			<div style="width:1140px;display:flex;margin-left:auto;margin-right:auto">
 			<div id="logoDiv">
-			<img src="logo.png" style="width:70px;" onclick="window.location.href='MainPage.html'">
+			<img src="logo.png" style="width:40px;" onclick="window.location.href='MainPage.html'">
 			</div>
 			
-			<div id="buttonsDiv">
-			<button id="HomeBtn"
-					onclick="window.location.href='MainPage.html'">Homepage</button>
-			<button id="lifeBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>		
-			<button id="THLBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>	
-			<button id="cityBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-					onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
+			<div id="SG-news">SG-News</div>
+			
+			<div id="buttonsDiv" >
+			<button id="HomeBtn" style="margin-left: 20px;" onclick="window.location.href='MainPage.html'">Homepage</button>|<button 
+					id="lifeBtn" class="Btns2" onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>|<button 
+					id="THLBtn" class="Btns2" onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>|<button 
+					id="cityBtn" class="Btns2"onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
+			</div>
 			</div>
 		</div>
 	
@@ -45,36 +44,51 @@
 			</div>
 			
 			<div style="width:380px">
-				<div id="month" style="width: 360px;">
+				<div id="monthDiv" style="width: 360px;">
 				<div id="monthTitle" style="width: 360px;">
 					<p style="margin-top:2px; margin-left:7px;">
 					   Monthly Events
 					</p>
 				</div>
 				<div class="monthClass" style="width: 340px;">
-					<p class="monthT">09</p>
+					<div style="display:flex">
+					<div class="month">09/</div>
+					<div class="monthT">12</div>
+					</div>
 					<p class="monthContent-1" onclick="window.open('https://lernraum.th-luebeck.de/')">
 						Deadline of exercise of chapter 3 of Network Security.
 					</p>
 				</div>
 				<div class="monthClass" style="width: 340px;">
-					<p class="monthT">16</p>
+					<div style="display:flex">
+					<div class="month">16/</div>
+					<div class="monthT">12</div>
+					</div>
 					<p class="monthContent-1" onclick="window.open('https://lernraum.th-luebeck.de/')">
 						Deadline of Assignment2 of Internet Programming.
 					</p>
 				</div>
 				<div class="monthClass" style="width: 340px;">
-					<p class="monthT">21</p>
+					<div style="display:flex">
+					<div class="month">21/</div>
+					<div class="monthT">12</div>
+					</div>
 					<p class="monthContent">Start of Christmas Holidays.
 					</p>
 				</div>
 				<div class="monthClass" style="width: 340px;">
-					<p class="monthT">24</p>
+					<div style="display:flex">
+					<div class="month">24/</div>
+					<div class="monthT">12</div>
+					</div>
 					<p class="monthContent">Christmas Eve
 					</p>
 				</div>
 				<div class="monthClass" style="width: 340px;">
-					<p class="monthT">25</p>
+					<div style="display:flex">
+					<div class="month">25/</div>
+					<div class="monthT">12</div>
+					</div>
 					<p class="monthContent">Christmas
 					</p>
 				</div>
