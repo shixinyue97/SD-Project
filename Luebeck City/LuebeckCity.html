@@ -2,30 +2,186 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Sino-German News - Luebeck City</title>
+	<title>Sino-German News</title>
 	<link rel="stylesheet" type="text/css" href="LuebeckCityStyle.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|PT+Serif" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 	<script src="LuebeckCityAction.js"></script>
 </head>
 <body>
-	<div id="mainDiv">
-		
-		<!-- banner -->
-		<div id="banner">
-		<button id="HomeBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+	<!-- banner -->
+	<div id="bannerDiv">
+		<div id="logoDiv">
+		<img src="logo.png" style="width:70px;cursor: pointer;" 
+			 onclick="window.location.href='../MainPage/MainPage.html'">
+		</div>
+			
+		<div id="buttonsDiv">
+		<button id="HomeBtn" style="margin-left:20px;" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
 				onclick="window.location.href='../MainPage/MainPage.html'">Homepage</button>
-		<button id="THLBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>
-		<button id="lifeBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>
-		<button id="cityBtn"
-				onclick="window.location.href='LuebeckCity.html'">Luebeck City</button>
-		<button id="buddyBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../China Buddy/ChinaBuddy.html'">China Buddy</button>
-		<button id="profBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../Professor/professor.html'">Professor</button>
+		<button id="lifeBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>		
+		<button id="THLBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+				onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>	
+		<button id="cityBtn" onclick="window.location.href='LuebeckCity.html'">Luebeck City</button>
+		
+		</div>
+	</div>
+		
+	<br/>
+	<div id="mainDiv">
+		<div style="display:flex;">
+		<div style="width:570px">
+			<div id="weekNews">	
+			<button type="button" id="weekNewsBtn"
+					onclick="window.location.href='./weekNews/weekNews.html'">
+					Christmas Market
+			</button>
+			</div>
 		</div>
 		
+		<div style="width:570px">
+			<div id="weeklyNews" style="width: 550px;">
+			<div id="weeklyNewsTitle" style="width: 550px;">
+				<p style="margin-top:2px; margin-left:7px;">
+				   Weekly News
+				</p>
+			</div>
+			<div class="newsClass" style="width: 530px;">
+				<p class="newsTitle" style="margin-top:8px;">Today we want to make something special.</p>
+				<p class="newsContent">
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+				</p>
+			</div>
+			<div class="newsClass" style="width: 530px;">	
+				<p class="newsTitle">Hard to think news. sample text sample text.</p>
+				<p class="newsContent">
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+				</p>
+			</div>
+			<div class="newsClass" style="width: 530px;">
+				<p class="newsTitle">We five people go to Hamburg today.</p>
+				<p class="newsContent">
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+				</p>
+			</div>
+			<div class="newsClass" style="width: 530px;">
+				<p class="newsTitle">Everyone tries to get a higher grades in TOEFL.</p>
+				<p class="newsContent">
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+					It is really hard to think about content now. 
+					Next time it will be filled with real news.
+				</p>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+		<div style="display:flex; margin-top:20px;">
+			<div style="width:380px">
+			<div id="notices" style="width:360px">
+			<div id="noticesTitle" style="width:360px">
+				<p style="margin-top:2px; margin-left:7px;">
+				   Notices
+				</p>
+			</div>
+			<div class="newsClass" style="width: 340px;">
+				<p class="newsTitle" style="margin-top:8px;">Have no idea that what should be put in here.</p>
+				<p class="newsContent">
+				</p>
+			</div>
+			<div class="newsClass" style="width: 340px;">	
+				<p class="newsTitle">Hard to think news. sample text sample text.</p>
+				<p class="newsContent">
+				</p>
+			</div>
+			<div class="newsClass" style="width: 340px;">
+				<p class="newsTitle">We five people go to Hamburg today.</p>
+				<p class="newsContent">
+				</p>
+			</div>
+			<div class="newsClass" style="width: 340px;">
+				<p class="newsTitle">Everyone tries to get a higher grades in TOEFL.</p>
+				<p class="newsContent">
+				</p>
+			</div>
+			</div>
+		</div>
+		
+		<div style="width:380px">
+			<div id="news1" style="background: url('fall.png')">	
+			<button type="button" class="newsBtn">
+					The fall is past: winter is coming ...
+			</button>
+			</div>
+		</div>
+		
+		<div style="width:380px">
+			<div id="news2" style="background: url('news2.png')">	
+			<button type="button" class="newsBtn">
+					Cute rabbits: these rabbits are ...
+			</button>
+			</div>
+		</div>
+		
+		</div>
+	</div>
+</body>
+<footer>
+	<div style="display:flex; margin-bottom: 20px; width:1140px;margin-left:auto;margin-right:auto;">
+	<div>
+	<table id="quickLinks" style="margin-left:20px; margin-top:10px; text-align:left">
+		<tr><td id="QLtitle">Quick Links</td></tr>
+		<tr><td class="qlB" onclick="window.open('http://www.luebeck.de/index.html')">
+				Luebeck Fenster
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.bahn.com/en/view/index.shtml')">
+				Deutsch Bahn
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.th-luebeck.de/')">
+				Technische Hochschule Luebeck
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.luebeck-tourismus.de/')">
+				Luebeck Tourismus
+				</td></tr>
+		<tr><td class="qlB" onclick="window.open('https://www.travemuende-tourismus.de/')">
+				Travemünde Tourismus
+				</td></tr>
+	</table>
 	</div>
 	
-</body>
+	<div>
+	<table id="contact" style="margin-left:40px; margin-top:10px; text-align:left">
+		<tr><td id="Ctitle">Contact Us</td></tr>
+		<tr><td>Telefon: +49/163/1234567</td></tr>
+		<tr><td>E-mail: group3.g@stud.th-luebeck.de</td></tr>
+		<tr><td>Xinyue Shi | Yanran Liu | Yu Kong</td></tr>
+	</table>
+	</div>
+	
+	<div>
+	<table id="add" style="margin-left:40px; margin-top:10px; text-align:left">
+		<tr><td id="Atitle">Addresse</td></tr>
+		<tr><td>Maria-Mitchell Str. 2-4</td></tr>
+		<tr><td>Luebeck 23562</td></tr>
+		<tr><td>Schleswig-Holstein</td></tr>
+		<tr><td>Germany</td></tr>
+	</table>
+	</div>
+	
+	</div>
+	<p style="margin-bottom:0px;">Copyright © Group3: Xinyue Shi, Yanran Liu, Yu Kong</p>
+	<button type="button" class="fB">Terms of use</button>|<button 
+			type="button" class="fB">Impressum</button>
+</footer>
 </html>

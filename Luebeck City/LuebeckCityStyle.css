@@ -1,24 +1,173 @@
 @charset "UTF-8";
-#banner{
-	background: url("logo.png");
-	background-size: cover;
-	width: 1140px;
-	height: 100px;
+#bannerDiv{
 	margin-left: auto;
 	margin-right: auto;
+	background-size: cover;
+	width: cover;
+	height: 50px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: black;
+}
+#logoDiv{
+	 float: left; 
+	 margin-left:20px; 
+	 margin-top:5px;
+	 height:70px;
+	 width:80px;
+	 background-color: white;
+	 text-align:center;
 }
 #cityBtn{
-	margin-top: 70px;
-	background-color: white;
+	margin-top: 20px;
+	padding-top: 5px;
+	color: white;
+	background-color: black;
 	border: none;
 	height: 30px;
-	width: 186px;
+	width: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+	cursor: pointer;
 }
-
-#HomeBtn,#THLBtn,#lifeBtn,#buddyBtn,#profBtn{
-	margin-top: 70px;
+.Btns2{
+	margin-top: 20px;
+	padding-top: 5px;
+	color: grey;
 	background-color: transparent;
 	border: none;
 	height: 30px;
-	width: 186px;
+	width: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+	cursor: pointer;
+}
+#mainDiv{
+	margin-top: 10px;
+	width: 1140px;
+	height:770px;;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#weekNews{
+	margin-left: 20px;
+	background: url('weekNews.png');
+	width: 550px;
+	height: 350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#weekNewsBtn{
+	font-family: 'PT Serif',serif; 
+	color: black; 
+	font-size: 30px;
+	margin-top: 230px;
+	background-color: rgba(255, 255, 255, 0.6);
+	text-shadow: 1px 2px white;
+	height: 80px;
+	width: 300px;
+	border: none;
+	cursor: pointer;
+}
+#weekNewsBtn:hover{
+    box-shadow: 2px 2px 2px #333;
+}
+
+#weeklyNews,#notices{
+	height: 350px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#weeklyNewsTitle,#noticesTitle{
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: black;
+	font-family: 'PT Serif',serif; 
+	letter-spacing:2px;
+	font-size:20px;
+}
+.newsClass{ 
+	border-style: solid;
+	border-width: 0px 0px 1px 0px; 
+	border-color: black; 
+	margin-left: 5px;
+	height:75px;
+}
+.newsTitle{
+	font-size: 18px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding-left: 5px;
+	margin-top:0px;
+	cursor: pointer;
+}
+.newsTitle:hover{
+	text-decoration:underline;
+}
+.newsContent{
+	margin-left: 10px;
+	margin-top: -15px;
+	font-size: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#news1,#news2{
+	margin-left: 20px;
+	width: 360px;
+	height: 360px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.newsBtn{
+	font-family: 'PT Serif',serif; 
+	color: black; 
+	text-align:left;
+	font-size: 20px;
+	margin-top: 310px;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 50px;
+	width: 360px;
+	border: none;
+	cursor: pointer;
+}
+.newsBtn:hover{
+	text-decoration: underline;
+}
+footer{
+	width: cover;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: black;
+	
+	font-size: 10px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+	margin-top: 10px;
+}
+#QLtitle,#Ctitle,#Atitle{
+	font-family: 'PT Serif',serif; 
+	font-size: 20px;
+	weight:bold;
+	letter-spacing: 5px;
+}
+.qlB{
+	cursor:pointer;
+}
+.qlB:hover{
+	text-decoration: underline;
+}
+.fB{
+	border:none;
+	background-color:transparent;
+	color:grey;	
+	cursor:pointer;
+}
+.fB:hover{
+	color:black;
 }

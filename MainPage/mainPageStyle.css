@@ -19,15 +19,6 @@
 	 text-align:center;
 }
 
-#newsTitle{
-	font-family: 'PT Serif', sans-serif;
-	font-weight: 500;
-	font-size: 22px;
-	margin-left: 3px;
-	margin-top:25px;
-	float: left; 
-}
-
 #HomeBtn{
 	margin-left: 20px;
 	margin-top: 20px;
@@ -38,8 +29,10 @@
 	height: 30px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	cursor: pointer;
 }
-#THLBtn,#lifeBtn,#cityBtn,#buddyBtn,#guideBtn{
+
+.Btns2{
 	border-right: 1px solid grey;
 	margin-top: 20px;
 	padding-top: 5px;
@@ -49,89 +42,124 @@
 	height: 30px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	cursor: pointer;
 }
 
 
 #mainDiv{
-	margin-top: 10px;
+	margin-top: 3px;
 	width: 1140px;
 	height: 825px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#quickLinks{
-	width: 150px;
-	height: 825px;
-	background-color: #aebda6;
-}
-#quickLinksDiv{
-	height: 28px;
-	width: 140px;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	border-color:white;
-	margin-bottom: 7px;
-}
-#quickLinksPara{
-	text-align: center;
-	width: 150px;
-	height: 35px;
-	color: white; 
-	font-family: 'Lobster', serif; 
-	font-size: 20px;
-	letter-spacing: 3px;
-	margin-top:5px;
-}
-#quicklinks{
-	margin-top: 5px;
-	width: 150px;
-	height: 340px;
-	font-size: 10px;
-	font-family: 'Noto Sans KR', sans-serif;
-	padding-left: 7px;
-}
-
-#news1{
+#mainNews{
 	margin-left: 20px;
-	margin-top: 20px;
-	background: url('2.jpg');
-	width: 400px;
+	background: url('christmas.png');
+	width: 740px;
 	height: 400px;
-	float: left;
+	margin-left:auto;
+	margin-right:auto;
 }
-#news2{
-	margin-top: 20px;
-	width: 550px;
-	height: 400px;
-	float: right;
-	background-color: #aebda6;
-	text-align: left;
+#mainNewsBtn{
+	font-family: 'PT Serif',serif; 
+	color: black; 
+	font-size: 30px;
+	margin-top: 230px;
+	background-color: rgba(255, 255, 255, 0.6);
+	text-shadow: 1px 2px white;
+	height: 80px;
+	width: 300px;
+	border: none;
+	cursor: pointer;
 }
-#news2Div{
-	height: 28px;
-	width: 540px;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	border-color:white;
-	margin-bottom: -10px;
+#mainNewsBtn:hover{
+    box-shadow: 2px 2px 2px #333;
 }
 
-.newsClass{ 
-	width: 540px; 
+#month{
+	height: 400px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#monthTitle{
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: black;
+	font-family: 'PT Serif',serif; 
+	letter-spacing:2px;
+	font-size:20px;
+	text-align:center;
+}
+.monthClass{ 
 	border-style: solid;
 	border-width: 0px 0px 1px 0px; 
-	border-color: #e8e8e8; 
+	border-color: black; 
 	margin-left: 5px;
+	height:65px;
+}
+.monthT{
+	font-size: 18px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding-left: 5px;
+	margin-top:0px;
+}
+.monthContent-1:hover{
+	text-decoration:underline;
+}
+.monthContent{
+	margin-left: 30px;
+	margin-top: -15px;
+	font-size: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.monthContent-1{
+	margin-left: 30px;
+	margin-top: -15px;
+	font-size: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+	cursor:pointer;
+}
+
+#weeklyNews,#notices{
+	height: 350px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#weeklyNewsTitle,#noticesTitle{
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: black;
+	font-family: 'PT Serif',serif; 
+	letter-spacing:2px;
+	font-size:20px;
+}
+.newsClass{ 
+	border-style: solid;
+	border-width: 0px 0px 1px 0px; 
+	border-color: black; 
+	margin-left: 5px;
+	height:85px;
 }
 .newsTitle{
 	font-size: 18px;
-	font-family: 'PT Serif', serif;
-	padding-left: 7px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding-left: 5px;
+	margin-top:0px;
+	cursor: pointer;
+}
+.newsTitle:hover{
+	text-decoration:underline;
 }
 .newsContent{
 	margin-left: 10px;
@@ -139,52 +167,38 @@
 	font-size: 10px;
 	font-family: 'Noto Sans KR', sans-serif;
 }
-
-#monthNotices{
-	width: 150px;
-	height: 400px;
-	text-align: center;
-	background-color: #aebda6;
-	float:right;
-}
-#monthDiv{
-	height: 28px;
-	width: 140px;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	border-color:white;
-	margin-bottom: 7px;
-}
-#month{
-	color: white; 
-	font-family: 'Lobster', serif; 
-	font-size: 25px;
-	letter-spacing: 5px;
-	margin-top:5px;
-}
-#monthTable{
-	margin-top: -10px;
-	width: 150px;
-	color: white; 
-	text-align: left;
-	border-collapse:separate; 
-	border-spacing: 10px 10px;
-}
-
 footer{
-	width: 1140px;
+	width: cover;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-family: 'Noto Sans KR', sans-serif;
-	color: white;
-	letter-spacing: 3px;
+	color: black;
+	
 	font-size: 10px;
 	border-top-style: solid;
-	border-top-width: 2px;
-	border-top-color: #7b946d;
-	background-color: #aebda6;
+	border-top-width: 1px;
+	border-top-color: black;
 	margin-top: 10px;
+}
+#QLtitle,#Ctitle,#Atitle{
+	font-family: 'PT Serif',serif; 
+	font-size: 20px;
+	weight:bold;
+	letter-spacing: 5px;
+}
+.qlB{
+	cursor:pointer;
+}
+.qlB:hover{
+	text-decoration: underline;
+}
+.fB{
+	border:none;
+	background-color:transparent;
+	color:grey;	
+	cursor:pointer;
+}
+.fB:hover{
+	color:black;
 }
