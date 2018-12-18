@@ -4,27 +4,77 @@
 	<meta charset="UTF-8">
 	<title>Sino-German News - TH Luebeck</title>
 	<link rel="stylesheet" type="text/css" href="THLStyle.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|PT+Serif" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<script src="THLAction.js"></script>
 </head>
 <body>
-	<div id="mainDiv">
-		
 		<!-- banner -->
-		<div id="banner">
-		<button id="HomeBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../MainPage/MainPage.html'">Homepage</button>
-		<button id="THLBtn"
-				onclick="window.location.href='THL.html'">TH Luebeck</button>
-		<button id="lifeBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>
-		<button id="cityBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
-		<button id="buddyBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../China Buddy/ChinaBuddy.html'">China Buddy</button>
-		<button id="profBtn" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
-				onclick="window.location.href='../Professor/professor.html'">Professor</button>
+		<div id="bannerDiv">
+			<div id="logoDiv">
+			<img src="logo.png" style="width:70px;" onclick="window.location.href='MainPage.html'">
+			</div>
+			
+			<div id="buttonsDiv">
+			<button id="HomeBtn"
+					onclick="window.location.href='MainPage.html'">Homepage</button>
+			<button id="lifeBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+					onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>		
+			<button id="THLBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+					onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>	
+			<button id="cityBtn" class="Btns2" onmouseover="buttonFocus(this.id)" onmouseout="buttonOut(this.id)"
+					onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
+
+			</div>
 		</div>
 		
-	</div>
+		<br/>
+		<div id="mainDiv">
+		
+			<div id="subtitle1"><h2>THL Guide</h2></div>
+			
+			<div id="part1_1">
+				<div id="pic1_1"><b>Buildings</b></div>
+			</div>
+			
+			
+			<div id="context1_1">
+				<p>Teaching Building<br>
+				   China Coordination Office<br>
+				   Laboratory Building</p>
+			</div>
+			
+			<div id="part1_2">
+				<div id="pic1_2"><b>Mensa</b></div>
+			</div>
+			
+			
+			<div id="context1_2">
+				<p>Mensa is the place to have lunch. There will be different dishes everyday.</p>
+			</div>
+			
+			<div id="part1_3">
+				<div id="pic1_3"><b>Library</b></div>
+			</div>
+			
+			<div id="context1_3">
+				<p>Library is beside the Mensa. It is a good place to study and read books.</p>
+			</div>
+			
+			<div id="subtitle2"><h2>China Buddy</h2></div>
+			<div id="part2_1"></div>
+			<div id="context2_1"></div>
+			<div id="part2_2"></div>
+			<div id="context2_2"></div>
+			<div id="part2_3"></div>
+			<div id="context2_3"></div>
+			
+			<div id="subtitle3"><h2>Professors</h2></div>
+			<div id="part3_1"></div>
+			<div id="context3_1"></div>
+			<div id="part3_2"></div>
+			<div id="context3_2"></div>
+			
+		</div>
 </body>
 </html>

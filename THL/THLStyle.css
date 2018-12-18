@@ -1,24 +1,193 @@
 @charset "UTF-8";
-#banner{
-	background: url("logo.png");
-	background-size: cover;
-	width: 1140px;
-	height: 100px;
+#bannerDiv{
 	margin-left: auto;
 	margin-right: auto;
+	background-size: cover;
+    /*width: cover;*/
+
+
+	height: 50px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: black;
 }
-#THLBtn{
-	margin-top: 70px;
-	background-color: white;
-	border: none;
-	height: 30px;
-	width: 186px;
+#logoDiv{
+	 float: left; 
+	 margin-left:20px; 
+	 margin-top:5px;
+	 height:70px;
+	 width:80px;
+	 background-color: white;
+	 text-align:center;
 }
 
-#HomeBtn,#lifeBtn,#buddyBtn,#cityBtn,#profBtn{
-	margin-top: 70px;
+#HomeBtn{
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 5px;
+	color: white;
+	background-color: black;
+	border: none;
+	height: 30px;
+	width: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Btns2{
+	border-right: 1px solid grey;
+	margin-top: 20px;
+	padding-top: 5px;
+	color: grey;
 	background-color: transparent;
 	border: none;
 	height: 30px;
-	width: 186px;
+	width: 100px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#mainDiv{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subtitle1{
+	margin-top: 20px;
+
+}
+
+#part1_1{
+	width: 190px;
+	height: 150px;
+	background-color: SlateGray;
+    float: left;
+
+}
+#pic1_1{
+	background: url("THL1.jpg");
+	background-color: transparent;
+	background-size: cover;
+	width: 150px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+}
+
+#context1_1{
+	width: 190px;
+	height: 150px;
+	background-color: LightSlateGray;
+    float: left;
+}
+
+#part1_2{
+	width: 190px;
+	height: 150px;
+	background-color: SlateGray;
+    float: left;
+}
+
+#context1_2{
+	width: 190px;
+	height: 150px;
+	background-color: LightSlateGray;
+    float: left;
+}
+
+#part1_3{
+	width: 190px;
+	height: 150px;
+	background-color: SlateGray;
+
+    float: left;
+}
+
+#context1_3{
+	width: 190px;
+	height: 150px;
+	background-color: LightSlateGray;
+    float: left;
+}
+
+#subtitle2{
+    margin-top: 200px;
+
+}
+
+#part2_1{
+    width: 190px;
+    height: 150px;
+	background-color: SlateGray;
+    float: left;
+}
+
+#context2_1{
+    width: 190px;
+    height: 150px;
+	background-color: LightSlateGray;
+    float: left;
+}
+
+#part2_2{
+    width: 190px;
+    height: 150px;
+	background-color: SlateGray;
+    float: left;
+}
+
+#context2_2{
+    width: 190px;
+    height: 150px;
+    background-color: LightSlateGray;
+    float: left;
+}
+
+#part2_3{
+    width: 190px;
+    height: 150px;
+	background-color: SlateGray;
+    float: left;
+}
+
+#context2_3{
+    width: 190px;
+    height: 150px;
+	background-color: LightSlateGray;
+    float: left;
+}
+
+#subtitle3{
+    margin-top: 200px;
+}
+
+#part3_1{
+    width: 190px;
+    height: 150px;
+	background-color: SlateGray;
+    float: left;
+}
+
+#context3_1{
+    width: 380px;
+    height: 150px;
+	background-color: LightSlateGray;
+    float: left;
+}
+
+#part3_2{
+    width: 190px;
+    height: 150px;
+	background-color: SlateGray;
+    float: left;
+}
+
+#context3_2{
+    width: 380px;
+    height: 150px;
+	background-color: LightSlateGray;
+    float: left;
 }

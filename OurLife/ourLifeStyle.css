@@ -87,7 +87,7 @@
 		 width:200px;
 	     background-color:transparent;
          border:none;
-         color:white;
+         color:grey;
          margin-top:0px;
          font-size:25px;
          text-align:left;
@@ -97,8 +97,8 @@
          cursor:pointer;
 }   
 .title:hover{
-	    background-color:#aebda6;
-	    color:white;
+	   
+	    color:black;
         border:none;
         text-decoration:underline;
 	
@@ -111,7 +111,7 @@ h2{
 }
 
 #title_h2{
-	color:white;
+	color:grey;
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -124,14 +124,14 @@ h2{
 	margin-left:190px;
 	margin-bottom:350px;
 	padding:0px;
-	background-color:#aebda6;	
+	
 }
 
 #middle{
 	margin-top:-1550px;
-	margin-left:400px;
-	height:1200px; 
-	width:720px;
+	margin-left:430px;
+	height:1500px; 
+	width:900px;
 	
 }
 
@@ -140,7 +140,7 @@ h2{
 	margin-left:1130px;
 	width:200px;
 	height:1200px;
-	background-color:#aebda6;
+	
 }
 
 #footer{
@@ -153,8 +153,8 @@ h2{
 .mainpicture{
 	align:top;
 	margin-top:0px;
-	width:720px;
-	height:380px;
+	width:900px;
+	height:550px;
 	border:none;
 }
 
@@ -167,18 +167,40 @@ h2{
 	width:720px;
 	
 }
-
-p{
-	text-align:center;
-	font-size:2px;
+footer{
+	width: cover;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: black;
+	
+	font-size: 10px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+	margin-top: 10px;
 }
-.fb{
+#QLtitle,#Ctitle,#Atitle{
+	font-family: 'PT Serif',serif; 
+	font-size: 20px;
+	weight:bold;
+	letter-spacing: 5px;
+}
+.qlB{
+	cursor:pointer;
+}
+.qlB:hover{
+	text-decoration: underline;
+}
+.fB{
 	border:none;
 	background-color:transparent;
-	color:grey;
+	color:grey;	
 	cursor:pointer;
-	align:center;
 }
-.fb:hover{
+.fB:hover{
 	color:black;
 }
+
+
