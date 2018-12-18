@@ -63,9 +63,11 @@
 	background-image:url("snow.jpg");
 	background-size:100% 100%;
 	background-repeat:no repeat;
+	
 }
 
 #plan{
+	position: absolute;
 	margin-top:300px;
 	width:500px;
 	height:140px;
