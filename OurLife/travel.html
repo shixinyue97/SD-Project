@@ -10,65 +10,94 @@
 <body>
 	<!-- banner -->
 		<div id="bannerDiv">
+			<div style="width:1140px;display:flex;margin-left:auto;margin-right:auto">
 			<div id="logoDiv">
-			<img src="logo.png" style="width:70px;" onclick="window.location.href='MainPage.html'">
+			<img src="logo.png" style="width:40px;" onclick="window.location.href='MainPage.html'">
 			</div>
 			
-			<div id="buttonsDiv">
-			<button id="HomeBtn" class="Btns2" 
-					onclick="window.location.href='../MainPage/MainPage.html'">Homepage</button>
-			<button id="lifeBtn"
-					onclick="window.location.href='OurLife.html'">Our Life</button>		
-			<button id="THLBtn" class="Btns2"
-					onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>	
-			<button id="cityBtn" class="Btns2"
-					onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
-
+			<div id="SG-news">SG-News</div>
+			
+			<div id="buttonsDiv" >
+			<button id="lifeBtn"  class="Btns2" style="margin-left: 20px;" onclick="window.location.href='../MainPage/MainPage.html'">Homepage</button>|<button 
+					id="HomeBtn" class="Btns2" onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>|<button 
+					id="THLBtn" class="Btns2" onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>|<button 
+					id="cityBtn" class="Btns2"onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
+			</div>
 			</div>
 		</div>
+	
+		<br/>
 		
 		<div id="mainDiv">
-			<div id="div1">
-				<div style="width:740px; margin-left:auto;margin-right:auto;">
 				<div id="snow_div">
 					<div id="plan">Any plans for winter holiday?</div>
 				</div>
+				
+			<div id="search">
+		      <table>
+			   <tr><td><input type="text" id="input" placeholder=" i.e. Berlin...">
+			   <td><img src="search_icon.png">
+		       </table>
+		       <button class ="new_title" >Information about weather</button><br>
+		       <button class ="new_title" >European transportation</button><br>
+		       <button class ="new_title" >European geography</button><br>
+		       <button class ="new_title" >European humanities </button><br>
+		       <button class ="new_title" >Learn language</button><br>
+		       <button class ="new_title" >Travel Diary</button><br>
+		       <button class ="new_title" >Buy tickets</button><br>
+		   </div>
 		
 		
-				<div id="article">
-	   				 <img src="travel1.jpg" class="travel">
-						<button class="article_title">My trip to Malta</button>
-		_____________________________________________________________________________________________
-		<textarea class="article_text">Malta has been inhabited since approximately 5900 BC. Its location in the centre of the Mediterranean has historically given it great strategic importance as a naval base. Most of these foreign influences have left some sort of mark on the country's ancient culture.</textarea>
-		<button class="article_title">Beautiful Christmas in Hamburg</button>
-		_____________________________________________________________________________________________
-		
-		<textarea class="article_text">Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.</textarea>
-		<button class="article_title">Norway in Winter</button>
-		_____________________________________________________________________________________________
-		
-		<textarea class="article_text">Norway's core territory comprises the western and northernmost portion of the Scandinavian Peninsula; the remote island of Jan Mayen and the archipelago of Svalbard are also part of the Kingdom of Norway. The Antarctic Peter I Island and the sub-Antarctic Bouvet Island are dependent territories. </textarea>
-		
-		</div>
-		</div>
-		</div>
-		<div id="div2">
-		<div id="search">
-		<table>
-			<tr><td><input type="text" id="input" placeholder=" i.e. Berlin...">
-			<td><img src="search_icon.png">
-		</table>
-		<button class ="new_title" >Latest information about weather</button><br>
-		<button class ="new_title" >European transportation guide</button><br>
-		<button class ="new_title" >Buy tickets</button><br>
-		<button class ="new_title" >European geography</button><br>
-		<button class ="new_title" >European humanities </button><br>
-		<button class ="new_title" >Learn language</button><br>
-		
-		
+	    <div id="article_1">
+	   			 <div id ="malta_text">
+						
+						
+	
+				<textarea class="article_text">Malta has been inhabited since approximately 5900 BC. Its location in the centre of the Mediterranean has historically given it great strategic importance as a naval base. Most of these foreign influences 
+have left some sort of mark on the country's ancient culture.The picture on the right side was taken from Dingli Cliff. The sunset was beautifully recorded in lens. Malta is worth visiting, here you can experience a completely different atmosphere from that of Germany.</textarea>
+			<p style ="text-align:right;margin-top:0px;color:#444444;font-style:italic;">by Kong Yu
+			</div>
+			
+			<div id ="malta_picture"></div>
+			
 		</div>
 		
+		
+		
+		<div id="article_2">
+		<br><br>
+		<hr style="height:3px;border:none;border-width:0px;border-top:2px solid #DDDDDD;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="99%" SIZE=2/>
+		  <br>
+		  <div id="hamburg_text">
+		
+		
+		<textarea class="article_text" >Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.Hamburg is a beautiful city.</textarea>
+		<p style ="text-align:right;margin-top:0px;color:#444444;font-style:italic;">by Kong Yu
+		
 		</div>
+		<div id ="hamburg_picture"></div>
+		</div>
+		
+		
+		<div id="article_3">
+		<br><br>
+		<hr style="height:3px;border:none;border-width:0px;border-top:2px solid #DDDDDD;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="99%" SIZE=2/>
+		  <br>
+		<div id="norway_text">
+		
+		
+		
+		<textarea class="article_text">We went to Oslo and Bergen during Christmas. The highlights of our trip was the delicious food and
+beautiful landscape. We took the train from Bergen to Oslo, it took us about seven hours to finish this
+trip. Although it may sound a little bit boring, but the snow-covered mountains were breathtaking.
+After we arrived in Oslo, we tried the local sea food restaurants. The picture is a dish called "sea food 
+platter". There are fish, shrimp, mussel, crab inside.</textarea>
+		 <p style ="text-align:right;margin-top:0px;color:#444444;font-style:italic;">by Kong Yu
+		
+		</div>
+		<div id ="norway_picture"></div>
+		</div>
+		
 		
 		
 		</div>

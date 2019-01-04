@@ -5,132 +5,120 @@
 	background-size: cover;
 	width: cover;
 	height: 50px;
-	border-style: solid;
-	border-width: 0px 0px 1px 0px;
-	border-color: black;
+	background-color:black;
+	color:white;
+	
 }
 #logoDiv{
-	 float: left; 
-	 margin-left:20px; 
-	 margin-top:5px;
-	 height:70px;
-	 width:80px;
-	 background-color: white;
+	 float: left;
+	 height:40px;
+	 width:40px;
+	 background-color: transparent;
 	 text-align:center;
+	 margin-top:auto;
+	 margin-bottom:auto;
 }
-
-#lifeBtn{
-	margin-top: 20px;
-	padding-top: 5px;
+#SG-news{
+	margin-left:10px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	
+}
+#buttonsDiv{
+	margin-top:auto;
+	margin-bottom:auto;
+	
+}
+#HomeBtn{
+	
 	color: white;
 	background-color: black;
 	border: none;
-	height: 30px;
+	height: 50px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
+
 .Btns2{
-	border-right: 1px solid grey;
-	margin-top: 20px;
-	padding-top: 5px;
 	color: grey;
 	background-color: transparent;
 	border: none;
-	height: 30px;
+	height: 50px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
 .Btns2:hover{
-	color: black;
+	color:white;
 }
+
 #mainDiv{
-	margin-top: 10px;
+
+	margin-top: 0px;
 	width: 1140px;
-	height:1000px;;
+	height:1300px;;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
+
 }
-#div1{
-	width:760px;
-}
-#div2{
-	width:380px;
-}
+
 #snow_div{
 	width:740px;
-	height:450px;
+	height:400px;
 	background-image:url("snow.jpg");
 	background-size:100% 100%;
 	background-repeat:no repeat;
+	margin-left:0px;
+	margin-top:0px;
+	position:absolute;
 	
 }
 
 #plan{
-	position: absolute;
-	margin-top:300px;
-	width:500px;
-	height:140px;
+	position: relative;
+	margin-top:240px;
+	font-size:35px;
+	width:390px;
+	height:110px;
 	background-color: rgba(255,200,225,0.3);
 	background-blend-mode: lighten;
+	font-family: 'Noto Sans KR', sans-serif;
+
 }
 #search{
 	width:360px;
-	height:700px;
-	margin-left:auto;
-	margin-right:auto;
+	height:400px;
+	margin-left:780px;
+	margin-top:0px;
+	position:absolute;
 }
 
 #input{
-	width:300px;
-	height:40px;
+	width:350px;
+	height:45px;
 	border-radius:10px;
 	border:none;
 	background-color:#D3D3D3;
 }
 
-#article{
-	width:740px;
-	height:600px;
-}
-
-
-.article_title{
-	     height:25px;
-		 width:700px;
-	     background-color:transparent;
-         border:none;
-         color:black;
-         font-size:25px;
-         text-align:left;
-         letter-spacing:2px;
-         transition-duration: 0.3s;
-         font-family: 'Fredoka One', cursive;
-         cursor:pointer;
-         margin-top:10px;
-         
-}
-.article_title:hover{
-	
-	    color:black;
-        border:none;
-        text-decoration:underline;
-      
-}
-
 .new_title{
-	     height:25px;
-		 width:300px;
+	     height:30px;
+		 width:350px;
 	     background-color:grey;
          border:none;
          color:white;
-         font-size:17px;
-         text-align:left;
-         
+         font-size:20px;
+         text-align:center;
          transition-duration: 0.3s;
          font-family: 'Fredoka One', cursive;
          cursor:pointer;
-         margin-top:10px;
+         margin-top:18px;
          
 }
 .new_title:hover{
@@ -140,13 +128,7 @@
         text-decoration:underline;
       
 }
-.article_text{
-	width:740px;
-	height:70px;
-	border:none;
-	font-size:17px;
-	font-family: 'Fredoka One', cursive;
-}
+
 h2{
 	font-size:60px;
 	font-family: 'Fredoka One', cursive;
@@ -157,11 +139,122 @@ h3{
 	font-size:40px;
 }
 
-.travel{
-	width:100px;
-	height:60px;
-	margin-top:10px;
+.article_title{
+	     height:32px;
+		
+	     background-color:grey;
+         border:none;
+         color:white;
+         font-size:25px;
+         text-align:center;
+         
+         transition-duration: 0.3s;
+         font-family: 'Fredoka One', cursive;
+         cursor:pointer;
+         
+         
 }
+.article_title:hover{
+	   
+	    color:black;
+        border:none;
+      
+      
+}
+
+.article_text{
+	width:740px;
+	height:140px;
+	font-size:18px;
+	font-family: 'Fredoka One', cursive;
+	border:none;
+	
+}
+
+#article_1{
+	width:1140px;
+	height:300px;
+	margin-top:430px;
+	margin-left:0px;
+	position:absolute	
+}
+#malta_text{
+	width:740px;
+	height:200px;
+	margin-top:20px;
+	margin-left:0px;
+	position:absolute
+}
+
+#malta_picture{
+	width:350px;
+	height:210px;
+	margin-top:20px;
+	margin-left:780px;
+	position:absolute;
+	background-image:url("malta.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	
+}
+
+#article_2{
+	width:1140px;
+	height:300px;
+	margin-top:670px;
+	margin-left:0px;
+	position:absolute	
+}
+#hamburg_text{
+	width:740px;
+	height:200px;
+	margin-top:20px;
+	margin-left:0px;
+	position:absolute
+}
+
+#hamburg_picture{
+	width:350px;
+	height:210px;
+	margin-top:20px;
+	margin-left:780px;
+	position:absolute;
+	background-image:url("hamburg.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	
+}
+
+#article_3{
+	width:1140px;
+	height:300px;
+	margin-top:970px;
+	margin-left:0px;
+	position:absolute	
+}
+#norway_text{
+	width:740px;
+	height:200px;
+	margin-top:20px;
+	margin-left:0px;
+	position:absolute
+}
+
+#norway_picture{
+	width:350px;
+	height:210px;
+	margin-top:20px;
+	margin-left:780px;
+	position:absolute;
+	background-image:url("norway.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	
+}
+
+
+
+
 
 footer{
 	width: cover;

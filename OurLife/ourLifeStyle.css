@@ -5,143 +5,238 @@
 	background-size: cover;
 	width: cover;
 	height: 50px;
-	border-style: solid;
-	border-width: 0px 0px 1px 0px;
-	border-color: black;
+	background-color:black;
+	color:white;
+	
 }
 #logoDiv{
-	 float: left; 
-	 margin-left:20px; 
-	 margin-top:5px;
-	 height:70px;
-	 width:80px;
-	 background-color: white;
+	 float: left;
+	 height:40px;
+	 width:40px;
+	 background-color: transparent;
 	 text-align:center;
+	 margin-top:auto;
+	 margin-bottom:auto;
 }
-
-#lifeBtn{
-	margin-top: 20px;
-	padding-top: 5px;
+#SG-news{
+	margin-left:10px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	
+}
+#buttonsDiv{
+	margin-top:auto;
+	margin-bottom:auto;
+	
+}
+#HomeBtn{
+	
 	color: white;
 	background-color: black;
 	border: none;
-	height: 30px;
+	height: 50px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
+
 .Btns2{
-	border-right: 1px solid grey;
-	margin-top: 20px;
-	padding-top: 5px;
 	color: grey;
 	background-color: transparent;
 	border: none;
-	height: 30px;
+	height: 50px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
 .Btns2:hover{
-	color: black;
+	color:white;
 }
+
 #mainDiv{
+
+	margin-top: 0px;
 	width: 1140px;
+	height:2000px;;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+
 }
 
-#section{
-	background-image:url("life.jpg");
+#mainpicture{
+	width:740px;
+	height:400px;
+	background-image:url("mainpicture.jpg");
 	background-size:100% 100%;
 	background-repeat:no repeat;
-	background-color: rgba(255,255,255,0.3);
-	background-blend-mode: lighten;	
-	padding:0px;
-	height:200px;
-	width:1140px;
-	margin-left:190px;	
-	margin-top:10px;
-	
-}
-#study{
-	height:300px;
-	width:1085px;
-	margin-left:200px;
-	
-}
-.button{ background-color:transparent;
-         border:none;
-         color:#FFBB00;
-         border-radius: 50px;
-         font-size:70px;
-         transition-duration: 0.3s;
-         font-family: 'Fredoka One', cursive;
-         margin-left:310px;
-         margin-top:80px;
-         }
-.button:hover {background-color: transparent;
-               color:#f44336;
-               border:none;}
-
-.title{  
-		 height:40px;
-		 width:200px;
-	     background-color:transparent;
-         border:none;
-         color:grey;
-         margin-top:0px;
-         font-size:25px;
-         text-align:left;
-         letter-spacing:2px;
-         transition-duration: 0.3s;
-         font-family: 'Fredoka One', cursive;
-         cursor:pointer;
-}   
-.title:hover{
-	   
-	    color:black;
-        border:none;
-        text-decoration:underline;
-	
-}          
-               
-      
-h2{
-	 font-family: 'Fredoka One', cursive;
-	
-}
-
-#title_h2{
-	color:grey;
-	font-family: 'Noto Sans KR', sans-serif;
-}
-
-
-
-#title{
-	width:200px;
-	height:1200px;
+	margin-left:0px;
 	margin-top:0px;
-	margin-left:190px;
-	margin-bottom:350px;
-	padding:0px;
+	position:absolute;
+	background-color: rgba(255,255,255,0.1);
+	background-blend-mode: lighten;
+}
+
+#happen{
+	position: relative;
+	margin-top:260px;
+	margin-left:0px;
+	font-size:40px;
+	width:400px;
+	height:80px;
+	text-align:center;
+	color:black;
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: rgba(230,230,255,0.4);
+	background-blend-mode: lighten;
+
+}
+
+h2{
+	font-family: 'Fredoka One', cursive;
+	color:#444444;
+}
+
+#news_title{
+	position:absolute;
+	margin-left:780px;
+	width:360px;
+	height:400px;
 	
 }
 
-#middle{
-	margin-top:-1550px;
-	margin-left:430px;
-	height:1500px; 
-	width:900px;
+.news{
+		border:none;
+		background-color:white;
+        color:#444444;
+        font-size:19px;  
+        transition-duration: 0.3s;
+        font-family: 'Fredoka One', cursive;
+        cursor:pointer;
+        padding-bottom: 3px;
+        
+}
+
+.news:hover{
+        text-decoration:underline;     
+}
+
+#div_1{
+	width:1140px;
+	height:340px;
+	margin-top:420px;
+	margin-left:0px;
+	position:absolute;
+}
+
+#title_1{
+	width:150px;
+	height:340px;
+	margin-left:0px;
+	position:absolute;
+	margin-top:0px;
 	
 }
 
-#right{
-	margin-top:-1220px;
-	margin-left:1130px;
-	width:200px;
-	height:1200px;
+
+#picture_1{
+	width:540px;
+	height:340px;
+	background-image:url("2019.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	margin-left:200px;
+	margin-top:0px;
+	position:absolute;
+}
+
+#text_1{
+	width:380px;
+	height:340px;
+	margin-left:780px;
+	position:absolute;
 	
 }
+
+
+
+#div_2{
+	width:1140px;
+	height:340px;
+	margin-top:980px;
+	margin-left:0px;
+	position:absolute;
+}
+
+#title_2{
+	width:150px;
+	height:340px;
+	margin-left:0px;
+	position:absolute;
+	margin-top:0px;
+	
+}
+
+#picture_2{
+	width:540px;
+	height:340px;
+	background-image:url("bergen.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	margin-left:200px;
+	margin-top:0px;
+	position:absolute;
+}
+
+#text_2{
+	width:380px;
+	height:340px;
+	margin-left:780px;
+	position:absolute;
+	
+}
+
+#div_3{
+	width:1140px;
+	height:340px;
+	margin-top:1450px;
+	margin-left:0px;
+	position:absolute;
+}
+
+#title_3{
+	width:150px;
+	height:340px;
+	margin-left:0px;
+	position:absolute;
+	margin-top:0px;
+	
+}
+
+#picture_3{
+	width:540px;
+	height:350px;
+	background-image:url("munch.jpg");
+	background-size:100% 100%;
+	background-repeat:no repeat;
+	margin-left:200px;
+	margin-top:0px;
+	position:absolute;
+}
+
+#text_3{
+	width:380px;
+	height:340px;
+	margin-left:780px;
+	position:absolute;
+	
+}
+
+
 
 #footer{
 	

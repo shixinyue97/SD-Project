@@ -5,55 +5,117 @@
 	<title>Sino-German News - Our Life</title>
 	<link rel="stylesheet" type="text/css" href="ourLifeStyle.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|PT+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 	<script src="ourLifeAction.js"></script>
 </head>
 <body>
 	<!-- banner -->
 		<div id="bannerDiv">
+			<div style="width:1140px;display:flex;margin-left:auto;margin-right:auto">
 			<div id="logoDiv">
-			<img src="logo.png" style="width:70px;" onclick="window.location.href='../MainPage/MainPage.html'">
+			<img src="logo.png" style="width:40px;" onclick="window.location.href='MainPage.html'">
 			</div>
 			
-			<div id="buttonsDiv">
-			<button id="HomeBtn" style="margin-left:20px;" class="Btns2"
-					onclick="window.location.href='../MainPage/MainPage.html'">Homepage</button>
-			<button id="lifeBtn"
-					onclick="window.location.href='OurLife.html'">Our Life</button>		
-			<button id="THLBtn" class="Btns2"
-					onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>	
-			<button id="cityBtn" class="Btns2"
-					onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
-
+			<div id="SG-news">SG-News</div>
+			
+			<div id="buttonsDiv" >
+			<button id="lifeBtn"  class="Btns2" style="margin-left: 20px;" onclick="window.location.href='../MainPage/MainPage.html'">Homepage</button>|<button 
+					id="HomeBtn" class="Btns2" onclick="window.location.href='../OurLife/OurLife.html'">Our Life</button>|<button 
+					id="THLBtn" class="Btns2" onclick="window.location.href='../THL/THL.html'">TH Luebeck</button>|<button 
+					id="cityBtn" class="Btns2"onclick="window.location.href='../Luebeck City/LuebeckCity.html'">Luebeck City</button>
+			</div>
 			</div>
 		</div>
+	
+		<br/>
 		
-		
-			<div id = "section">
-				<input type ="button" class="button"  value="Explore our life!">
-			</div>
-			<div id = "title">
-				    <h2 id="title_h2">Guide
-				    ______________</h2>
-					<button class ="title" value ="Shopping">Shopping</button><br>
-					<button class ="title" value ="Living">Living</button><br>
-					<button class ="title" value ="Transportation">Transportation</button><br>
-					<button class ="title" value ="Cooking">Cooking</button><br>
-					<button class ="title" value ="Traveling" onclick="window.location.href='travel.html'">Traveling</button>
-					<button class ="title" value ="Help">Help</button>
+			<div id="mainDiv">
+				<div id= "mainpicture">
+					<div id="happen">What's happening?</div>
+				</div>
+				
+				<div id="news_title">
+					<h2>Guide</h2>
+					<hr style="height:1px;border:none;border-top:1px solid #444444;" width="100%" SIZE=5/>
+				    <button class ="news" value ="Shopping">Shop in Karlstadt: 80% off</button> 
+				    <p style="text-align:right;margin-top:0px;font-size:12px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 25, 2018</p>
+				    <hr style="height:1px;border:none;border-top:1px solid #444444;" width="100%" SIZE=5/>
+					<button class ="news" value ="Transportation">DB: We are going to strike.</button><br>
+					<p style="text-align:right;margin-top:0px;font-size:12px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 27, 2018</p>
+					<hr style="height:1px;border:none;border-top:1px solid #444444;" width="100%" SIZE=5/>
+					<button class ="news" value ="Cooking">New cooking skills</button><br>
+				    <p style="text-align:right;margin-top:0px;font-size:12px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 28, 2018</p>				
+					<hr style="height:1px;border:none;border-top:1px solid #444444;" width="100%" SIZE=5/>
+					<button class ="news" value ="Traveling" onclick="window.location.href='travel.html'">Travel plans during Christmas</button><br>
+				    <p style="text-align:right;margin-top:0px;font-size:12px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 30, 2018</p>
+					<hr style="height:1px;border:none;border-top:1px solid #444444;" width="100%" SIZE=5/>
+					<button class ="news" value ="Help">It's time to find new apartments</button>
+				    <p style="text-align:right;margin-top:0px;font-size:12px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Jan. 1, 2019</p>
+					
+					<hr style="height:1px;border:none;border-top:1px solid #444444;" width="100%" SIZE=5/>
+					
+				</div>
+				<br>
+				
+						
+				<div id="div_1">
+				<p style="text-align:center;color:#444444;font-size:50px;">— Latest  News —</p>
+					<br><br>
+					<div id="title_1">
+					<hr style="height:0px;border:none;border-width:0px;border-top:5px solid #A42D00;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="100%" SIZE=2/>
+					<p style="text-align:right;margin-top:0px;font-size:13px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 31, 2018</>
+					<p style="text-align:right;margin-top:0px;font-size:18px;font-family: 'Fredoka One', cursive;">LIFE<p>
 					</div>
-			<div id="middle">
-				   	<img src="mainpicture.jpg" class="mainpicture"> 
-				   	<h2>Recent News</h2>
-				   	<textarea id = "textarea">Life in Luebeck is so colorful! We can do a lot of things here! On this page you can explore  your life in Luebeck, and we provide multiple information for you.xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+					<div id="picture_1">
+					</div>
+					<div id="text_1">
+						<p style="text-align:center;font-family:'Noto Sans KR', sans-serif;color:#444444;font-size:30px;">Make a new year wish: anything different in 2019?</p>
+						<p style ="text-align:center;color:grey;font-style:italic;">by Kong Yu
+						<p style ="text-align:center;color:#444444;font-size:20px;">Read More >>
+					</div>
+					
+			   </div>
+			   <div id="div_2">
+			   <br><br>
+				<hr style="height:3px;border:none;border-width:0px;border-top:2px solid #DDDDDD;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="100%" SIZE=2/>
+		        <br><br><br>
+		        <div id="title_2">
+					<hr style="height:0px;border:none;border-width:0px;border-top:5px solid #A42D00;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="100%" SIZE=2/>
+					<p style="text-align:right;margin-top:0px;font-size:13px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 28, 2018</p>
+					<p style="text-align:right;margin-top:0px;font-size:18px;font-family: 'Fredoka One', cursive;">TRAVEL<p>
+					</div>
+					<div id="picture_2">
+					</div>
+					<div id="text_2">
+						<p style="text-align:center;font-family:'Noto Sans KR', sans-serif;color:#444444;font-size:28px;">From Bergen to Oslo: Amazing!</p>
+						<p style ="text-align:center;color:grey;font-style:italic;">by Kong Yu
+						<p style ="text-align:center;color:#444444;font-size:20px;">Read More >>
+		            </div>
+		         </div>
+		       
+		       <div id="div_3">
+			   <br><br>
+				<hr style="height:3px;border:none;border-width:0px;border-top:2px solid #DDDDDD;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="100%" SIZE=2/>
+		        <br><br><br>
+		        <div id="title_3">
+					<hr style="height:0px;border:none;border-width:0px;border-top:5px solid #A42D00;margin-top:0px;margin-block-start:0;margin-inline-start:0" width="100%" SIZE=2/>
+					<p style="text-align:right;margin-top:0px;font-size:13px;color:grey;font-family:'Noto Sans KR', sans-serif;">   Dec. 26, 2018</>
+					<p style="text-align:right;margin-top:0px;font-size:18px;font-family: 'Fredoka One', cursive;">ART<p>
+					</div>
+					<div id="picture_3">
+					</div>
+					<div id="text_3">
+						<p style="text-align:center;font-family:'Noto Sans KR', sans-serif;color:#444444;font-size:28px;">Edvard Munch is on show</p>
+						<p style ="text-align:center;color:grey;font-style:italic;">by Kong Yu
+						<p style ="text-align:center;color:#444444;font-size:20px;">Read More >>
+		           </div>
+		          </div>
+		  </div>
+		 
 				   	
-				   	</textarea>
-				   	<img src="travel1.jpg" class="mainpicture">
-				    <h2>Highlights of this week</h2>
-				   	<textarea id = "textarea">Life in Luebeck is so colorful! We can do a lot of things here! On this page you can explore  your life in Luebeck, and we provide multiple information for you.xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-				   	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-				   	</textarea>
-				   	</div>
+				   	
+				   	
 			
 	<footer>
 	<div style="display:flex; margin-bottom: 20px; width:1140px;margin-left:auto;margin-right:auto;">
