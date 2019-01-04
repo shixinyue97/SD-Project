@@ -5,85 +5,103 @@
 	background-size: cover;
 	width: cover;
 	height: 50px;
-	border-style: solid;
-	border-width: 0px 0px 1px 0px;
-	border-color: black;
+	background-color:black;
+	color:white;
+	
 }
 #logoDiv{
-	 float: left; 
-	 margin-left:20px; 
-	 margin-top:5px;
-	 height:70px;
-	 width:80px;
-	 background-color: white;
+	 float: left;
+	 height:40px;
+	 width:40px;
+	 background-color: transparent;
 	 text-align:center;
+	 margin-top:auto;
+	 margin-bottom:auto;
 }
-
-#lifeBtn{
-	margin-top: 20px;
-	padding-top: 5px;
+#SG-news{
+	margin-left:10px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	
+}
+#buttonsDiv{
+	margin-top:auto;
+	margin-bottom:auto;
+	
+}
+#HomeBtn{
+	
 	color: white;
 	background-color: black;
 	border: none;
-	height: 30px;
+	height: 50px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
+
 .Btns2{
-	border-right: 1px solid grey;
-	margin-top: 20px;
-	padding-top: 5px;
 	color: grey;
 	background-color: transparent;
 	border: none;
-	height: 30px;
+	height: 50px;
 	width: 100px;
 	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
 .Btns2:hover{
-	color: black;
+	color:white;
 }
+
 #mainDiv{
-	margin-top: 10px;
+
+	margin-top: 0px;
 	width: 1140px;
 	height:1000px;;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
+
 }
-#div1{
-	width:760px;
-}
-#div2{
-	width:380px;
-}
+
 #snow_div{
 	width:740px;
-	height:450px;
+	height:400px;
 	background-image:url("snow.jpg");
 	background-size:100% 100%;
 	background-repeat:no repeat;
+	margin-left:0px;
+	margin-top:0px;
+	position:absolute;
 	
 }
 
 #plan{
-	position: absolute;
-	margin-top:300px;
+	position: relative;
+	margin-top:250px;
+	font-size:50px;
 	width:500px;
-	height:140px;
+	height:150px;
 	background-color: rgba(255,200,225,0.3);
 	background-blend-mode: lighten;
+	font-family: 'Noto Sans KR', sans-serif;
+
 }
 #search{
 	width:360px;
-	height:700px;
-	margin-left:auto;
-	margin-right:auto;
+	height:400px;
+	margin-left:780px;
+	margin-top:0px;
+	position:absolute;
 }
 
 #input{
-	width:300px;
-	height:40px;
+	width:350px;
+	height:45px;
 	border-radius:10px;
 	border:none;
 	background-color:#D3D3D3;
@@ -92,12 +110,14 @@
 #article{
 	width:740px;
 	height:600px;
+	position:absolute;
+	margin-top:400px;
 }
 
 
 .article_title{
 	     height:25px;
-		 width:700px;
+		 width:740px;
 	     background-color:transparent;
          border:none;
          color:black;
@@ -111,7 +131,6 @@
          
 }
 .article_title:hover{
-	
 	    color:black;
         border:none;
         text-decoration:underline;
@@ -119,14 +138,13 @@
 }
 
 .new_title{
-	     height:25px;
-		 width:300px;
+	     height:38px;
+		 width:350px;
 	     background-color:grey;
          border:none;
          color:white;
-         font-size:17px;
-         text-align:left;
-         
+         font-size:21px;
+         text-align:center;
          transition-duration: 0.3s;
          font-family: 'Fredoka One', cursive;
          cursor:pointer;
@@ -162,6 +180,23 @@ h3{
 	height:60px;
 	margin-top:10px;
 }
+
+#malta{
+	margin-left:0px;
+	margin-top:0px;
+	height:200px;
+	width:740px;
+	
+}
+#malta_article{
+	width:740px;
+}
+
+
+
+
+
+
 
 footer{
 	width: cover;
