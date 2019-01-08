@@ -63,143 +63,159 @@
 	margin-right: auto;
 }
 
-#subtitle1{
-	margin-top: 20px;
-
-}
-
-#part1_1{
-	width: 190px;
-	height: 150px;
-	background-color: SlateGray;
-    float: left;
-
-}
-#pic1_1{
-	background: url("THL1.jpg");
-	background-color: transparent;
+#welcome{
+	
+	background: url('welcome.png');
 	background-size: cover;
-	width: 150px;
-	height: 100px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	font-size: 22px;
+	width: 550px;
+	height: 350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#welcomeBtn{
+	font-family: 'PT Serif',serif; 
+	color: black; 
+	font-size: 30px;
+	margin-top: 230px;
+	background-color: rgba(255, 255, 255, 0.6);
+	text-shadow: 1px 2px white;
+	height: 80px;
+	width: 300px;
+	border: none;
+	cursor: pointer;
+}
+#welcomeBtn:hover{
+    box-shadow: 2px 2px 2px #333;
+}
+
+#studyGuide{
+	height: 350px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#studyGuideTitle{
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: black;
+	font-family: 'PT Serif',serif; 
+	letter-spacing:2px;
+	font-size:20px;
+}
+
+.studyGuideClass{ 
+	border-style: solid;
+	border-width: 0px 0px 1px 0px; 
+	border-color: black; 
+	margin-left: 5px;
+	height:75px;
+}
+.studyGuideTitle{
+	font-size: 18px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding-left: 5px;
+	margin-top:0px;
+	cursor: pointer;
+}
+.studyGuideTitle:hover{
+	text-decoration:underline;
+}
+.studyGuideContent{
+	margin-left: 10px;
+	margin-top: -15px;
+	font-size: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#act{
+	font-family: 'PT Serif',serif;
+	font-size: 35px;
+	text-align: left;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+}
+
+.actClass{
+	width: 285px; 
+	height: 285px;
+}
+
+.actPic{
+	width: 265px;
+	height: 265px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.actIntr{
+	width: 265px;
+	height: 265px;
+	margin: auto;
+	margin-top: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.readMore{
+	cursor: pointer;
+}
+
+.readMore:hover{
+	text-decoration:underline;
+}
+
+.actBtn{
+	font-family: 'PT Serif',serif; 
+	color: black; 
+	text-align:auto;
+	font-size: 20px;
+	margin-top: 220px;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 45px;
+	width: 265px;
+	border: none;
+	cursor: pointer;
+}
+.actBtn:hover{
+	text-decoration: underline;
+}
+
+footer{
+	width: cover;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: black;
+	
+	font-size: 10px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: black;
+	margin-top: 10px;
 }
-
-#context1_1{
-	width: 190px;
-	height: 150px;
-	background-color: LightSlateGray;
-    float: left;
+#QLtitle,#Ctitle,#Atitle{
+	font-family: 'PT Serif',serif; 
+	font-size: 20px;
+	weight:bold;
+	letter-spacing: 5px;
 }
-
-#part1_2{
-	width: 190px;
-	height: 150px;
-	background-color: SlateGray;
-    float: left;
+.qlB{
+	cursor:pointer;
 }
-
-#context1_2{
-	width: 190px;
-	height: 150px;
-	background-color: LightSlateGray;
-    float: left;
+.qlB:hover{
+	text-decoration: underline;
 }
-
-#part1_3{
-	width: 190px;
-	height: 150px;
-	background-color: SlateGray;
-
-    float: left;
+.fB{
+	border:none;
+	background-color:transparent;
+	color:grey;	
+	cursor:pointer;
 }
-
-#context1_3{
-	width: 190px;
-	height: 150px;
-	background-color: LightSlateGray;
-    float: left;
-}
-
-#subtitle2{
-    margin-top: 200px;
-
-}
-
-#part2_1{
-    width: 190px;
-    height: 150px;
-	background-color: SlateGray;
-    float: left;
-}
-
-#context2_1{
-    width: 190px;
-    height: 150px;
-	background-color: LightSlateGray;
-    float: left;
-}
-
-#part2_2{
-    width: 190px;
-    height: 150px;
-	background-color: SlateGray;
-    float: left;
-}
-
-#context2_2{
-    width: 190px;
-    height: 150px;
-    background-color: LightSlateGray;
-    float: left;
-}
-
-#part2_3{
-    width: 190px;
-    height: 150px;
-	background-color: SlateGray;
-    float: left;
-}
-
-#context2_3{
-    width: 190px;
-    height: 150px;
-	background-color: LightSlateGray;
-    float: left;
-}
-
-#subtitle3{
-    margin-top: 200px;
-}
-
-#part3_1{
-    width: 190px;
-    height: 150px;
-	background-color: SlateGray;
-    float: left;
-}
-
-#context3_1{
-    width: 380px;
-    height: 150px;
-	background-color: LightSlateGray;
-    float: left;
-}
-
-#part3_2{
-    width: 190px;
-    height: 150px;
-	background-color: SlateGray;
-    float: left;
-}
-
-#context3_2{
-    width: 380px;
-    height: 150px;
-	background-color: LightSlateGray;
-    float: left;
+.fB:hover{
+	color:black;
 }
