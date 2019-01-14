@@ -60,7 +60,7 @@
 #mainDiv{
 	margin-top: 0px;
 	width: 1140px;
-	height:2000px;;
+	height:1900px;;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -90,7 +90,7 @@
 	box-shadow: 2px 2px 2px #333;
 }
 #weeklyNews{
-	height: 350px;
+	height: 400px;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
@@ -203,7 +203,7 @@ h2{
 #div_2{
 	width:1140px;
 	height:340px;
-	margin-top:980px;
+	margin-top:950px;
 	margin-left:0px;
 	position:absolute;
 }
@@ -239,7 +239,7 @@ h2{
 #div_3{
 	width:1140px;
 	height:340px;
-	margin-top:1450px;
+	margin-top:1430px;
 	margin-left:0px;
 	position:absolute;
 }
