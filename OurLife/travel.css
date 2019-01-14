@@ -178,7 +178,9 @@ h3{
 	border: none;
 	cursor: pointer;
 }
-
+#mainNewsBtn:hover{
+    box-shadow: 2px 2px 2px #333;
+}
 .article_text{
 	width:740px;
 	height:140px;
